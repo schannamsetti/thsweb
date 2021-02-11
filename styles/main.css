@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+.ths-container-ui {
+    background-color: #f2f2f2 ;
+    min-height: 95vh;
+    overflow: hidden;
+    position: relative;
+    max-width: 1240px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.service-definition {
+  padding-top: 17px; 
+  padding-bottom: 6px; 
+  text-align: center; 
+  font-size: 27px; 
+  background-color:rgb(181, 236, 255);
+  margin-bottom: 28px; 
+}
+
+.section-content {
+  padding-top: 17px; 
+  padding-bottom: 6px; 
+  text-align: center; 
+  background-color: rgb(181, 236, 255);
+}
+
+.contact-card {
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.padding-twentyfive {
+  padding-top: 25px; 
+  padding-bottom: 25px;
+}
+
+.customerstories-boxes {
+  padding-left: 30px; 
+  padding-right: 30px; 
+  padding-top: 20px; 
+  padding-bottom: 20px;
+}
+
+.colmd4-boxes {
+  text-align: center; 
+  padding-right: 25px;
+}
+
+.text-responsive {
+  max-width: auto;
+  height: auto;
+  padding: 9%;
+}
+
+.textresponsive-2 {
+  max-width: auto;
+  height: auto;
+  padding: 7%;
+}
+
+.textresponsive-3 {
+  max-width: auto;
+  height: auto;
+  padding: 8%;
+}
+
+.textresponsive-4 {
+  max-width: auto;
+  height: auto;
+  padding: 1%;
+}
+
+.textresponsive-5 {
+  max-width: auto;
+  height: auto;
+  padding: 8%;
+}
+
+.textresponsive-6 {
+  max-width: auto;
+  height: auto;
+  padding: 8%;
+}
+
+.customerstoriesbox-2 {
+  padding-left: 30px; 
+  padding-right: 30px; 
+  padding-top: 20px; 
+  padding-bottom: 15px;
+}
+
+.title-size {
+  padding: 3px 6px;
+}
+
+.title-color {
+  color: #0e197a;
+}
+
+.titlecontact-size {
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: #0e197a;
+}
+
+.img-column {
+  float: left;
+  width: 5%;
+  padding: 5px;
+}
+
+.title-column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}

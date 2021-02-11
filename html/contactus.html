@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TeleHealth Services</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/contactvalidator.js"></script>
+</head>
+
+<body>
+    <div class="containter ths-container-ui">
+        <div class="row">
+            <div class="col-md-9" style="margin-top: 20px;">
+                <div class="img-column"><img src="../images/logo.png"></div>
+                <div class="title-column">
+                    <h1 class="title-size"><a href="../index.html" class="title-color">TeleHealth Services</a></h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <section class="titlecontact-size"><b>Contact Information</b> <br>(123) 456-7890 <br> email@gmail.com
+                    <br> 000
+                    Something
+                    Rd, Apex, NC 27502
+            </div>
+            </section>
+        </div>
+        <nav class="navbar navbar-light bg-light">
+            <ul class="nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Our Services</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./primarycare.html">Primary Care</a>
+                        <a class="dropdown-item" href="./specialtycare.html">Specialty Care</a>
+                        <a class="dropdown-item" href="./urgentcare.html">Urgent Care</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./customerstories.html">Customer Stories</a>
+                        <a class="dropdown-item" href="./coronavirusinfo.html">COVID-19 Information</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About Us</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./whoweare.html">Who We Are</a>
+                        <a class="dropdown-item" href="./contactus.html"
+                            style="background-color: rgb(62, 207, 255);">Contact Us</a>
+                        <a class="dropdown-item" href="./citations.html">Citations</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <article
+            style="background-color: rgb(130, 221, 252); color:black; padding-bottom: 1px; padding-top: 6px; padding-left: 10px;">
+            <h1 style="font-size: 40px;">Contact Us</h1>
+        </article>
+        <div class="card contact-card" style="margin-top: 30px;">
+            <div class="card-body">
+                <h5 class="card-title">Submit a question</h5>
+                <p class="card-text">Please complete and submit your inquiry below, or call us at
+                    (123) 456-7890 Monday to Friday 8:30AM - 4:30PM ET (excluding holidays).</p>
+                <p>*Required fields</p>
+                <form action="contactsuccess.html" onsubmit="javascipt:validateForm();">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstName">First Name*</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName">Last Name*</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputCompany">Company</label>
+                            <input type="company" class="form-control" id="inputCompany" placeholder="Enter Company">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPhoneNumber">Phone Number</label>
+                            <input type="phonenumber" class="form-control" id="inputPhoneNumber"
+                                placeholder="Enter Phone Number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label for="inputAddress">Address</label>
+                            <input type="address" class="form-control" id="inputAddress" placeholder="Enter Address">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Enter City">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Enter Zip">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputText">How can we help you?</label>
+                            <input type="text" class="form-control" id="inputText"
+                                placeholder="Please detail your concern here.">
+                        </div>
+                    </div>
+                    <button type="submit" style="background-color:rgb(62, 207, 255)">Submit</button>
+                </form>
+            </div>
+        </div>
+        <footer id="sticky-footer" class="py-4 bg-light text-black-50" style="margin-top: 85px;">
+            <div class="container text-center">
+                <small>Bootstrap 4, a framework system, was used for the creation of this website. However, it was used
+                    only for the purpose of responsive styling. Otherwise, the design of the website is entirely
+                    original and created by by students Sai Ananya Channamsetti and Vrutika Soneji
+                    from Apex Friendship High School, Apex, North Carolina.</small>
+                <br>
+                <br>
+                <small>The following website is NOT a legitimate medical telecommunications company. This webstie was
+                    created soley for educational purposes ONLY as a submission for the Technology Student Association
+                    North Carolina central regionals competition.</small>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
