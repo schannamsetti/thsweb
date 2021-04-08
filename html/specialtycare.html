@@ -3,6 +3,10 @@
 
 <head>
     <title>TeleHealth Services</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/bootstrap.css">
 
@@ -29,13 +33,16 @@
         </div>
         <nav class="navbar navbar-light bg-light">
             <ul class="nav">
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown menu-selected">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Our Services</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="./primarycare.html">Primary Care</a>
-                        <a class="dropdown-item" href="./specialtycare.html"
-                            style="background-color: rgb(62, 207, 255);">Specialty Care</a>
+                        <a class="dropdown-item menuitem-selected" href="./specialtycare.html">Specialty Care</a>
                         <a class="dropdown-item" href="./urgentcare.html">Urgent Care</a>
+                        <a class="dropdown-item" href="./ourportal.html">Our Portal</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -50,8 +57,13 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="./whoweare.html">Who We Are</a>
                         <a class="dropdown-item" href="./contactus.html">Contact Us</a>
-                        <a class="dropdown-item" href="./citations.html">Citations</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./worklog.html">Work Log</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./citations.html">Citations</a>
                 </li>
             </ul>
         </nav>
@@ -67,7 +79,7 @@
             </div>
         </div>
         <article class="service-definition padding-twentyfive" style="margin-bottom: 0px;">
-            <p style="padding-left: 34px; padding-right: 34px;">Specialty care is the level of advanced medical care and
+            <p style="padding-left: 34px; padding-right: 34px;" class="carefont-size">Specialty care is the level of advanced medical care and
                 treatment that is needed for specific physical, mental, or behavioral health conditions. It is the
                 healthcare unit responsible for a diagnosis, a treatment plan, and the start or continuation of
                 specialized treatment. Examples of specialty care include dermatology, cardiology, and neurologists.
@@ -126,7 +138,7 @@
             </div>
         </section>
         <article class="section-content">
-            <p style="font-size: 27px; padding-left: 34px; padding-right: 34px;" class="padding-twentyfive">Specialty
+            <p style="padding-left: 34px; padding-right: 34px;" class="padding-twentyfive carefont-size">Specialty
                 care at TH Services is a state-of-art online facility dedicated to
                 tending to your specific issues that are beyond the primary care spectrum. Our service allows you to
                 start or continue your treatment and care effectively despite not being a professional setting.
