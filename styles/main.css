@@ -5,7 +5,7 @@ body {
 }
 
 .ths-container-ui {
-    background-color: #f2f2f2 ;
+    background-color: #f2f2f2;
     min-height: 95vh;
     overflow: hidden;
     position: relative;
@@ -27,7 +27,6 @@ body {
   padding-top: 17px; 
   padding-bottom: 6px; 
   text-align: center; 
-  background-color: rgb(181, 236, 255);
 }
 
 .contact-card {
@@ -63,19 +62,19 @@ body {
 .textresponsive-2 {
   max-width: auto;
   height: auto;
-  padding: 7%;
+  padding: 8%;
 }
 
 .textresponsive-3 {
   max-width: auto;
   height: auto;
-  padding: 8%;
+  padding: 7%;
 }
 
 .textresponsive-4 {
   max-width: auto;
   height: auto;
-  padding: 1%;
+  padding: 3%;
 }
 
 .textresponsive-5 {
@@ -140,21 +139,15 @@ body {
 }
 
 .ourportal-oddbox {
-  background-color: rgb(239, 239, 255);
+  background-color: #d4d4e9;
 }
 
 .ourportal-evenbox {
-  background-color: rgb(235, 250, 255);
+  background-color: rgb(206, 243, 255);
 }
-
-.ourportal-backgroundcolor {
-  background-color: rgb(248, 254, 255);
-}
-
-
 
 .menu-selected {
-  background-color: rgb(167, 234, 255);
+  background-color: rgb(159, 231, 255);
 }
 
 .menuitem-selected {
@@ -169,7 +162,79 @@ body {
   font-size: 27px;
 }
 
+.coronafont-size {
+  font-size: 20px;
+}
+
+.ourportal-center {
+  text-align: left;
+  margin-left: 18px;
+}
+
+.navbar {
+  padding: 0rem 0rem !important;
+}
+
+.mainbox-color {
+  background-color: rgb(159, 231, 255);
+}
+
+.heading-color {
+  background-color: rgb(44, 199, 255) !important;
+}
+
+.pageimage {
+  background-color: #fbfafb;
+}
+
+.care-margin {
+  margin-top: 33px;
+}
+
+.h1font {
+  font-size: 36px;
+}
+
+.h2font {
+  font-size: 32px;
+}
+
+.h3font {
+  font-size: 28px;
+}
+
+.h4font {
+  font-size: 24px;
+}
+
+.h5font {
+  font-size: 20px;
+}
+
+.h6font {
+  font-size: 16px;
+}
+
+.font-27px {
+  font-size: 27px;
+}
+
+.blue-heading {
+  padding-bottom: 8px; 
+  padding-top: 8px; 
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+
+.font-40px {
+  font-size: 40px;
+}
+
 @media (max-width: 600px) {
+  .ourportal-center {
+    text-align: center;
+  }
+
   .contact-card {
     margin-bottom: 20px;
     margin-left: 20px;
@@ -177,6 +242,10 @@ body {
   }
 
   .carefont-size {
+    font-size: 16px;
+  }
+
+  .coronafont-size {
     font-size: 16px;
   }
 
@@ -238,8 +307,42 @@ body {
     flex-direction: column;
     width: 100%;
   }
-}
 
-.navbar {
-  padding: 0rem 0rem !important;
+  .h1font {
+    font-size: 28px !important;
+  }
+
+  .h2font {
+    font-size: 24px !important;
+  }
+  
+  .h3font {
+    font-size: 20px;
+  }
+
+  .h4font {
+    font-size: 18px !important;
+  }
+
+  .h5font {
+    font-size: 16px;
+  }
+
+  .h6font {
+    font-size: 16px;
+  }
+
+  .font-27px {
+    font-size: 19px;
+  }
+
+  .font-40px {
+    font-size: 20px;
+  }
+
+  .blue-heading {
+    padding-bottom: 1px; 
+    padding-top: 6px; 
+    padding-left: 10px;
+  }
 }
